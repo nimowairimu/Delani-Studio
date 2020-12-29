@@ -1,0 +1,36 @@
+.jumbotron-fluid {
+    background-image: url("../static/assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    height: 580px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+}
+
+.mouse{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20px;
+}
+
+.services{
+  background-image: url("../static/assets/backgrounds/s_image.jpg");
+  background-size: cover;
+  height: 300px;
+  margin-top:30px
+}
+.hide {
+  display:none;
+}
+.contact{
+  background-image: url("../static/assets/backgrounds/c_image.jpg");
+  height: 450px;
+}
+#form {
+  background-color: #66000000
+}
