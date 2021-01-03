@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
-* {font-family: 'Comfortaa', cursive;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap')
+
 
 body {
     margin: 0;
@@ -70,6 +68,9 @@ body {
   margin-top: 25px;
 }
 
+.desimg ,.devimg, .proimg{
+  position: relative;
+}
 
 .services {
     background-image: url("../static/assets/backgrounds/s_image.jpg");
@@ -89,23 +90,7 @@ body {
     background-color: #66000000;
     color: white;
 }
-.input{
-    margin-top: 30px;
-}
-.portimg .porttext {
-    display: none;
-    opacity: 1;
-    background-color:rgba(255, 255, 255, 0.6);
-    width: auto;
-    position: absolute;
-    bottom: 0;
-    color: deepskyblue;
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 30px;
-    height: 100%;
-}
+
 textarea::placeholder{
     color: #ffffff;
 }

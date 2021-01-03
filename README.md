@@ -12,7 +12,7 @@ This is a landing page for a fictional studio that helps to better learns snd pr
 
 #  SET UP INSTRUCTIONS
 1. Clone the Repository
-    git clone https://github.com/nimowairimu/Delani-Studio-.git
+    git clone https://nimowairimu.github.io/Delani-Studio/
 1. Extract the cloned file.
    cd to Delani-Studio folder.
 1. Launch index.html file.
