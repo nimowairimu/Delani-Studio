@@ -6,33 +6,34 @@ html {
 * {font-family: 'Comfortaa', cursive;
     box-sizing: border-box;
 }
-.logo {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-.mouse {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 
 body {
     margin: 0;
     padding: 0;
 }
 
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 668px;
+    background-image: url("../static/assets/backgrounds/h_img.jpg");
+    height: 670px;
 }
 
 .overlay > img, .h-text {
     position: relative;
     top: 33%;
-}
+  }
+
+
 .h-text{
     font-family: 'Comfortaa', cursive;
 }
@@ -48,7 +49,7 @@ body {
 }
 
 .jumbotron-fluid {
-    background-image: url("./static/assets/backgrounds/h_img.jpg");
+
     background-size: cover;
     height: 668px;
 }
@@ -66,35 +67,27 @@ body {
     60% {
         transform: translateY(-45px);
     }
+
 }
 
-.about {
-    height: 250px;
+.about h1{
+  margin-top: 25px;
 }
 
-.about h1 {
-    margin-top: 30px;
-}
 
 .services {
-    background-image: url("../images/backgrounds/s_image.jpg");
-    height: 280px;
+    background-image: url("../static/assets/backgrounds/s_image.jpg");
+    height: 300px;
 }
 
 .services h1 {
     position: relative;
     top: 30px;
-    margin-bottom: 20px;
-}
-
-.small-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 280px;
 }
 
 
-.what-we-do h1 {
-    margin-top: 30px;
+}
+
 }
 figcaption{
     margin-top: 20px;
@@ -106,7 +99,7 @@ figcaption{
 }
 
 .contacts {
-    background-image: url("../images/backgrounds/c_image.jpg");
+    background-image: url("../static/assets/backgrounds/c_image.jpg");
     background-size: cover;
 }
 
