@@ -1,14 +1,14 @@
 $(function () {
     let dtxt = $('#dtxt');
     let devtxt = $('#devtxt');
-    let prop = $('#prop');
+    let protxt = $('#protxt');
     let dicon = $('#dicon');
     let devicon = $('#devicon');
-    let protext = $('#protext');
+    let proicon = $('#proicon');
 
     $(dtxt).hide();
     $(devtxt).hide();
-    $(prop).hide();
+    $(protxt).hide();
 
     //Show paragraph content
     $('.des').on('click', function () {
@@ -23,7 +23,7 @@ $(function () {
         $(devicon).animate({fontWeight:'bolder',fontSize:'30px'})
     });
     $('.pro').on('click', function () {
-        $('.pro').slideUp('slow');
+        $('.protxt').slideUp('slow');
         $(prop).show(500);
         $(protext).animate({fontWeight:'bolder',fontSize:'30px'})
     });
