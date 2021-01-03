@@ -1,3 +1,4 @@
+
 $(function () {
     let dtxt = $('#dtxt');
     let devtxt = $('#devtxt');
@@ -29,10 +30,10 @@ $(function () {
     });
 
     //Hide paragraph content
-    $(desp, destext).on('click', function () {
+    $(dtxt, dicon).on('click', function () {
         $('.des').slideDown();
-        $(desp).hide(500);
-        $(destext).animate({fontWeight:'normal',fontSize:'16px'})
+        $(dtxt).hide(500);
+        $(dicon).animate({fontWeight:'normal',fontSize:'16px'})
     });
     $(devp, devtext).on('click', function () {
         $('.dev').slideDown();

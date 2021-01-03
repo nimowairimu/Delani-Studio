@@ -33,6 +33,10 @@ body {
     top: 33%;
   }
 
+  .hide{
+      display:none;
+  }
+
 
 .h-text{
     font-family: 'Comfortaa', cursive;
