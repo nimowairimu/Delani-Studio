@@ -19,13 +19,13 @@ $(function () {
     });
     $('.dev').on('click', function () {
         $('.dev').slideUp('slow');
-        $(devp).show(500);
+        $(devtxt).show(500);
         $(devicon).animate({fontWeight:'bolder',fontSize:'30px'})
     });
     $('.pro').on('click', function () {
-        $('.protxt').slideUp('slow');
-        $(prop).show(500);
-        $(protext).animate({fontWeight:'bolder',fontSize:'30px'})
+        $('.pro').slideUp('slow');
+        $(protxt).show(500);
+        $(proicon).animate({fontWeight:'bolder',fontSize:'30px'})
     });
 
     //Hide paragraph content
