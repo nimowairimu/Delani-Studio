@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Raleway|Ubuntu+Mono&display=swap');
-html {
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');html {
     scroll-behavior: smooth;
 }
 
@@ -22,26 +21,33 @@ body {
   margin-right: auto;
   display: block;
 }
-.card-deck {
-    padding: 1% 8%;
+
 
 .overlay {
     background-image: url("../static/assets/backgrounds/h_img.jpg");
     height: 670px;
 }
-#dtext {
+
+.hide{
   display: none;
 }
 
-.h-text{
-    font-family: 'Comfortaa', cursive;
+.Hover {
+  opacity:0;
+  background-color: rgba(255, 255, 255, 0.623);
+  position: absolute;
+  top:25%;
+  bottom:25%;
+  left:25%;
+  right:25%
 }
-.smaller-text{
-    font-family: 'Ubuntu Mono', monospace;
+
+.des, .dev,.pro{
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Gabriela', serif;
 }
-.overlay > img, .welcome {
-    margin-bottom: 30px;
-}
+
 
 .click {
     margin-top: 330px;
@@ -79,33 +85,11 @@ body {
     height: 300px;
 }
 
-.services h1 {
-    position: relative;
-    top: 30px;
-}
-
-
-}
-
-}
-figcaption{
-    margin-top: 20px;
-}
-
-.portfolio {
-    /*height: 650px;*/
-    padding-bottom: 50px;
-}
-
 .contacts {
     background-image: url("../static/assets/backgrounds/c_image.jpg");
     background-size: cover;
 }
 
-.contacts h1 {
-    position: relative;
-    top: 30px;
-}
 .text{
     margin-bottom: 20px;
 }
@@ -121,39 +105,6 @@ figcaption{
 .input{
     margin-top: 30px;
 }
-.b-text{
-    font-family: 'Comfortaa', cursive;
-}
-.m-text{
-    font-family: 'Raleway', sans-serif;
-}
-.name{
-    margin-right: 5px;
-}
-input.error {
-    border: 1px dashed red;
-    font-weight: 300;
-    color: red;
-}
-.email{
-    margin-right: 5px;
-}
-.social{
-    justify-content:center;
-    padding-left:10px;
-    padding-right:10px;
-}
-.white{
-    height: 300px;
-    width: 366px;
-    background-color: rgba(255, 255, 255, 0.5);
-    display: none;
-}
-.img-fluid{
-    max-width: 100%;
-    height: auto;
-}
-
 .portimg .porttext {
     display: none;
     opacity: 1;

@@ -1,56 +1,26 @@
+$(document).ready(function() {
 
-$(function () {
-    let dtxt = $('#dtxt');
-    let devtxt = $('#devtxt');
-    let protxt = $('#protxt');
-    let dicon = $('#dicon');
-    let devicon = $('#devicon');
-    let proicon = $('#proicon');
+  $("#design").click(function(){
+    $("#design-showing").toggle();
+    $(".hide-design-image").toggle();
+  })
 
-    $(dtxt).hide();
-    $(devtxt).hide();
-    $(protxt).hide();
+  $("#development").click(function(){
+    $("#development-showing").toggle();
+    $(".hide-development-image").toggle();
+  })
 
-    //Show paragraph content
-    $('.des').on('click', function () {
-        $('.des').slideUp('slow');
-        $(dtxt).show(500);
-        $(dicon).animate({fontWeight:'bolder',fontSize:'30px'})
-
-    });
-    $('.dev').on('click', function () {
-        $('.dev').slideUp('slow');
-        $(devtxt).show(500);
-        $(devicon).animate({fontWeight:'bolder',fontSize:'30px'})
-    });
-    $('.pro').on('click', function () {
-        $('.pro').slideUp('slow');
-        $(protxt).show(500);
-        $(proicon).animate({fontWeight:'bolder',fontSize:'30px'})
-    });
-
-    //Hide paragraph content
-    $(dtxt, dicon).on('click', function () {
-        $('.des').slideDown();
-        $(dtxt).hide(500);
-        $(dicon).animate({fontWeight:'normal',fontSize:'16px'})
-    });
-    $(devp, devtext).on('click', function () {
-        $('.dev').slideDown();
-        $(devp).hide(500);
-        $(devtext).animate({fontWeight:'normal',fontSize:'16px'})
-    });
-    $(prop, protext).on('click', function () {
-        $('.pro').slideDown();
-        $(prop).hide(500);
-        $(protext).animate({fontWeight:'normal',fontSize:'16px'})
-    })
-
-    //Overlay images
-    $(".card").hover(function () {
-  $(this).children(".card-1").fadeToggle(1000, "linear");
-});
-
+  $("#productManagement").click(function(){
+    $("#product-management-showing").toggle();
+    $(".hide-product-management").toggle();
+  })
+  
+  $(".Hover").hover(function(){
+    $(this).animate({opacity:'1'});
+  },
+  function(){
+    $(this).animate({opacity:'0'});
+  })
 
     //Form Validation
     $("form#form").on('submit',function(event){
@@ -69,11 +39,10 @@ $(function () {
                   alert("Please provide your correct name and email!");
               }
           }
-          
-          $("button").on('click', function () {
-          $('form').each(function () {
-           this.reset();
+       var frm = document.getElementsById('form')[0];frm.reset();
+
       });
+
 
 
 
