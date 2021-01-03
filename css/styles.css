@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');html {
-    scroll-behavior: smooth;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
 * {font-family: 'Comfortaa', cursive;
     box-sizing: border-box;
 }
@@ -21,7 +18,6 @@ body {
   margin-right: auto;
   display: block;
 }
-
 
 .overlay {
     background-image: url("../static/assets/backgrounds/h_img.jpg");
@@ -46,11 +42,6 @@ body {
   font-weight: bold;
   text-align: center;
   font-family: 'Gabriela', serif;
-}
-
-
-.click {
-    margin-top: 330px;
 }
 
 .jumbotron-fluid {
@@ -88,10 +79,6 @@ body {
 .contacts {
     background-image: url("../static/assets/backgrounds/c_image.jpg");
     background-size: cover;
-}
-
-.text{
-    margin-bottom: 20px;
 }
 
 .contact-overlay {
