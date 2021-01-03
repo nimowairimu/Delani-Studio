@@ -32,7 +32,7 @@ $(document).ready(function() {
          });
 
          function callbackFunction (resp) {
-             console.log(resp);
+             console.log(alert);
              if (resp.result === 'success') {
                  alert ("Hey " + name + ", Thanks for reaching out, we'll get back to you shortly");
               }else{
