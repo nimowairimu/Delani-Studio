@@ -13,9 +13,10 @@ This is a landing page for a fictional studio that helps to better learns snd pr
 #  SET UP INSTRUCTIONS
 1. Clone the Repository
     git clone https://github.com/nimowairimu/Delani-Studio-.git
-1. Switch to the Directory
-   ./Index. html  and use a text editor like atom, notepad,visual studio code or any other to view the code.
-1. Open your web browser in order to have a look and feel of the site.
+1. Extract the cloned file.
+   cd to Delani-Studio folder.
+1. Launch index.html file.
+
 
 
 #   BDD.
