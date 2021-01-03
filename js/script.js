@@ -34,15 +34,12 @@ $(document).ready(function() {
          function callbackFunction (resp) {
              console.log(resp);
              if (resp.result === 'success') {
-                 alert ("Hey " + name + ", Thanks for reaching out, we'll get back to you shortly...cheers");
+                 alert ("Hey " + name + ", Thanks for reaching out, we'll get back to you shortly");
               }else{
                   alert("Please provide your correct name and email!");
               }
           }
-       var frm = document.getElementsById('form')[0];frm.reset();
-
       });
-
 
 
 
