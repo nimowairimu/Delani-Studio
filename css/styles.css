@@ -158,12 +158,7 @@ input.error {
     max-width: 100%;
     height: auto;
 }
-.portimg {
-    float: right;
-    position: relative;
-    margin: 5px;
-    /*color: #333;*/
-}
+
 .portimg .porttext {
     display: none;
     opacity: 1;
