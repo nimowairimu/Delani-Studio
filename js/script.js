@@ -47,12 +47,9 @@ $(function () {
     })
 
     //Overlay images
-
-    $('.portimg').hover(function(){
-        $('.porttext',this).slideToggle('slow');
-     }, function(){
-        $('.porttext',this).slideToggle('slow');
-     });
+    $(".card").hover(function () {
+  $(this).children(".card-1").fadeToggle(1000, "linear");
+});
 
 
     //Form Validation
@@ -72,6 +69,10 @@ $(function () {
                   alert("Please provide your correct name and email!");
               }
           }
+          
+          $("button").on('click', function () {
+          $('form').each(function () {
+           this.reset();
       });
 
 

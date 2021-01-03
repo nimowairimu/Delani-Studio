@@ -22,21 +22,16 @@ body {
   margin-right: auto;
   display: block;
 }
+.card-deck {
+    padding: 1% 8%;
 
 .overlay {
     background-image: url("../static/assets/backgrounds/h_img.jpg");
     height: 670px;
 }
-
-.overlay > img, .h-text {
-    position: relative;
-    top: 33%;
-  }
-
-  .hide{
-      display:none;
-  }
-
+#dtext {
+  display: none;
+}
 
 .h-text{
     font-family: 'Comfortaa', cursive;
