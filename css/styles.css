@@ -24,6 +24,12 @@
   display: none;
 }
 
+.whatwedo{
+  margin-left: auto;
+  margin-top: auto;
+  display: block;
+}
+
 .Hover {
   opacity:0;
   background-color: rgba(255, 255, 255, 0.623);
@@ -67,7 +73,7 @@
 }
 
 .desimg ,.devimg, .proimg{
-  position: relative;
+  align-items: center;
 }
 
 .services {
