@@ -7,15 +7,15 @@ This is a landing page for a fictional studio that helps to better learns snd pr
 
 
 #  AUTHOR'S INFORMATION
-  Author is Irene Wairimu Mungai, A student at Moringa School.
+  > Irene Wairimu Mungai, A student at Moringa School.
   There were no contributors apart from Irene Mungai only.
 
 #  SET UP INSTRUCTIONS
-1. Clone the Repository
-    git clone https://nimowairimu.github.io/Delani-Studio/
-1. Extract the cloned file.
-   cd to Delani-Studio folder.
-1. Launch index.html file.
+  1.  Clone the Repository
+    ``git clone https://nimowairimu.github.io/Delani-Studio/``
+  1. Extract the cloned file.
+   1. cd to Delani-Studio folder.
+  1.   Launch ``index.html file.``
 
 
 
